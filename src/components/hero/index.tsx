@@ -57,9 +57,11 @@ const Hero: React.FC<{ heroTree: ExpandedHeroTree }> = ({ heroTree }) => {
   }
   //this is data
   const onPlayGame = (eve: React.MouseEvent<HTMLInputElement>) => {
-    !isMobile
-      ? window.location.replace("https://ambergame.top/")
-      : window.location.replace("https://testflight.apple.com/join/KHYIS8no")
+    window.location.href =
+      "https://drive.google.com/file/d/1SkmE8gyvmO0HRIHJ0FT7xT79or3Ug8nG"
+    // !isMobile
+    //   ? window.location.replace("https://ambergame.top/")
+    //   : window.location.replace("https://testflight.apple.com/join/KHYIS8no")
   }
 
   const handleCheckboxChange = (eve: React.ChangeEvent<HTMLInputElement>) => {

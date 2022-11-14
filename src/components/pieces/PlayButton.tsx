@@ -15,7 +15,7 @@ const PlayButton: React.FC<Props> = props => {
       className="bg-white p-2 w-max flex justify-between items-center space-x-4 mx-auto md:mx-0 px-5"
     >
       <TextBox>
-        <h4 className="text-[32px] font-semibold text-black uppercase">
+        <h4 className="text-[32px] font-medium text-black uppercase">
           {locale?.play}
         </h4>
       </TextBox>
