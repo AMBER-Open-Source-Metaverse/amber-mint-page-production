@@ -58,7 +58,7 @@ const Hero: React.FC<{ heroTree: ExpandedHeroTree }> = ({ heroTree }) => {
   //this is data
   const onPlayGame = (eve: React.MouseEvent<HTMLInputElement>) => {
     window.location.href =
-      "https://drive.google.com/file/d/1SkmE8gyvmO0HRIHJ0FT7xT79or3Ug8nG"
+      "https://dl.patchkit.net/d/x5ied1p9cqo83axw7zo5/direct"
     // !isMobile
     //   ? window.location.replace("https://ambergame.top/")
     //   : window.location.replace("https://testflight.apple.com/join/KHYIS8no")
