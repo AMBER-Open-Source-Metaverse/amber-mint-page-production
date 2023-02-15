@@ -58,7 +58,7 @@ const Hero: React.FC<{ heroTree: ExpandedHeroTree }> = ({ heroTree }) => {
   //this is data
   const onPlayGame = (eve: React.MouseEvent<HTMLInputElement>) => {
     window.location.href =
-      "https://dl.patchkit.net/d/x5ied1p9cqo83axw7zo5/direct"
+      "https://metaverse-course.ams3.cdn.digitaloceanspaces.com/Ailand-installer.exe"
     // !isMobile
     //   ? window.location.replace("https://ambergame.top/")
     //   : window.location.replace("https://testflight.apple.com/join/KHYIS8no")
